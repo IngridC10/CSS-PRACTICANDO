@@ -1,0 +1,204 @@
+html,body {
+    font-family: 'Roboto', sans-serif;
+    background-color: 	#fff0db
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto Mono', monospace;
+ 
+}
+section{
+    
+    width: 800px;
+    margin: 20px auto 0;
+    padding:15px 15px 0;
+    border:1px solid 	#916e66;
+    border-radius:15px;
+    box-shadow: 0px 0px 16px 1px 	#916e66;
+}
+section a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #5a79a1
+}
+.skills {
+    width: 800px;
+    margin: 20px auto 0;
+    padding: 15px 15px 0;
+    border: 1px solid 	#916e66;
+    border-radius: 15px;
+    box-shadow: 0px 0px 16px 1px 	#916e66;
+}
+.skills-container {
+    display: flex;
+}
+.skills-list,
+.skill-list {
+    width: 150px;
+    margin: 0 10px;
+    padding: 0;
+}
+.skills-list ul,
+.skill-list ul {
+    list-style: none;
+    padding: 0;
+}
+.image {
+    width: 260px;
+    display: inline-block;
+    padding: 10px 15px;
+    text-align: center;
+}
+.image img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 16px 1px #5a79a1; /* La sintaxis corregida para la sombra */
+}
+.about{
+    width: 460px;
+    display: inline-block;
+    padding: 10px 15px;
+}
+.skill-list {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px; /* Ajusta el ancho según sea necesario */
+    margin: 0 10px; /* Ajusta el margen para separar los elementos */
+}
+h2 + .skill-list{
+    margin-left: 0 !important;
+}
+@media(min-width:576px) and (max-width: 800px) {
+    .video-responsive{
+    height: 0;
+    overflow:hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+    width: 800px;
+    margin: 0 auto 15px;
+ }
+    .video-responsive iframe{
+     height: 100%;
+     position: absolute;
+     left:0;
+     top:0;
+     width:100px;
+ }
+    .skills div.skill-list{
+        vertical-align: top;
+        margin:0 30px;
+    }
+    .social ul{
+        list-style: none;
+        padding: 0;
+    }
+    .social ul li{
+        display:inline;
+        font-size: 17px;
+        margin-right:15px
+    }
+
+    .skill-list:first-of-type {
+        margin-left: 0 !important;
+    }
+
+    section a:hover
+    {
+        color: #6ef5f3
+    } 
+    .social ul li:first-child a:hover{
+        color:#f56ea6
+    }
+    .social ul li:first-child(2)a:hover{
+        color:#0a66c2
+    }
+}
+@media (max-width: 576px)and (max-width: 800px){
+
+    
+    section{
+        width: 90vw;
+    }
+    .image, .about{
+        display: block;
+    }
+    .image {
+        width: 100%;
+        padding: 10px 15px;
+        text-align: center;
+    } 
+    .about{
+        width: auto;
+    }
+    .video-responsive{
+        width: 800px;
+        margin: 0 auto 15px;
+     }
+    .video-responsive iframe{
+         height: 100%;
+         position: absolute;
+         left:0;
+         top:0;
+         width:100px;
+     }
+
+
+
+
+
+
+
+
+}
+
+/* @media screen and (max-width: 800px){
+  body {color:#6ef5f3;
+
+  }
+
+
+} */
+/* div {
+    width: 600px;
+    padding: 10px;
+    text-align: left;
+}
+
+.about p{
+    text-align:left;
+    text-indent: 25px;
+    color:blueviolet;
+   
+}
+
+
+
+h1{
+    text-align: center;
+    
+}
+
+
+span{
+    color:#a32f22;
+    font-size:20px;
+    font-weight: 500;
+    font-style: times;
+    text-align: left;
+
+
+}
+
+strong {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color:blue
+}
+
+.about em{
+    color:lightsalmon
+}
+
+#ingrid p{
+    color:chocolate
+} */
